@@ -21,8 +21,15 @@
                                                                 // output=>Devesh
                                                                 //         Ramawat
                                                                 //         21
-                                            
 
+
+// foreach in arrays
+const array=[1,2,3,4,5];
+array.forEach(function(number,index){
+    console.log(`The numner at index ${index} is ${number} and the square of the number is ${number**2}`);
+});
+
+                                            
 // 1. Write a JavaScript program that displays "Hello, World!" in the console
 // solution:-
 // console.log("Hello, World!");
@@ -116,12 +123,11 @@
 // 12. Write a function that calculates the factorial of a given number and displays the
 // result in the console.
 // solition:-
-const fact = (num) => {
-    let ans=1;
-    for(let i=1;i<=num;i++){
-        ans = ans*i;
-    }
-    return ans;
-}
-
-console.log(fact(5));
+// const fact = (num) => {
+//     let ans=1;
+//     for(let i=1;i<=num;i++){
+//         ans = ans*i;
+//     }
+//     return ans;
+// }
+// console.log(fact(5));
