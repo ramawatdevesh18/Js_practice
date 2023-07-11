@@ -23,11 +23,17 @@
                                                                 //         21
 
 
-// foreach in arrays
-const array=[1,2,3,4,5];
-array.forEach(function(number,index){
-    console.log(`The numner at index ${index} is ${number} and the square of the number is ${number**2}`);
-});
+// foreach in arrays this function return (item,itemIndex)
+// const array=[1,2,3,4,5];
+// array.forEach(function(number,index){
+//     console.log(`The numner at index ${index} is ${number} and the square of the number is ${number**2}`); 
+// });
+// <------------------->
+// function myfun(number,index){
+//     console.log(`The numner at index ${index} is ${number} and the square of the number is ${number**2}`); 
+// }
+// array.forEach(myfun);
+
 
                                             
 // 1. Write a JavaScript program that displays "Hello, World!" in the console
