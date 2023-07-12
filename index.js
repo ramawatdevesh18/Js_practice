@@ -517,6 +517,23 @@
 
 // 48. Write a program that prompts the user to enter a sentence and checks if it is a
 // pangram. Display the result in the console.
+// const set = (['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']);
+// function checkPangram(string) {
+//   let words = string.split(" ");
+//   let result = words.join("");
+//   let arr=  new Set([...result].sort());
+//   let arr1=Array.from(arr)
+//   if(arr1.length==set.length){
+//      return "pangram";
+//   }
+//   else{
+//     return "not pangram";
+//   }
+// }
+// let str ="The quick brown fox jumps over the lazy dog";
+// str=str.toLowerCase();
+// console.log(checkPangram(str))
+
 
 
 
